@@ -1,12 +1,14 @@
 
 
-var nav = document.querySelector('nav');
-window.addEventListener('scroll',function() {
-  if(window.pageYOffset > 100) {
-    nav.classList.add('scrolled')
-  } else {
-    nav.classList.remove('scrolled')
-  }
+const nav = document.querySelector("nav");
+document.addEventListener("scroll", function(){
+    if(window.scrollY > 200){
+        nav.style.backgroundColor = "rgb(86, 85, 84,1)";
+        nav.style.width = "100%";
+        nav.style.color = "white";
+    }else{
+        nav.style.backgroundColor = "rgb(254,254,254,0.1)";
+    }
 })
 
     function calculateBMI() {
