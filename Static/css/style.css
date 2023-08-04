@@ -1,0 +1,171 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+.scrolled{
+    background-color: black;
+  } 
+
+.landing{
+    background-image: url(../img/gym12e.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    filter:brightness(0.9);
+   
+    }
+
+
+body {
+    font-family: 'Lato' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #fff;
+    background-color: black;
+    /* padding: 30px; */
+}
+.about-us-img{
+    background-image: url(../img/gym2e.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+}
+
+a.active,a:hover{
+    background:#ff7e38;
+    transition: .5s;
+ }
+
+ @media screen and (max-width: 767px) {
+    .about-us-img{
+     margin-top: 30px;
+    }
+    .container-fluid2{
+        max-width: 100%;
+        margin: auto;
+      }
+}
+.nav-link{
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 767px) {
+    .explain-text{
+     margin-bottom: 20px;
+    }
+}
+
+.form-img{
+    background-image: url(../img/gym3e.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+}
+
+.Form-box1{
+    background-image: url(../img/form-img.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+    filter:brightness(100%);
+    background-attachment: fixed;
+  }
+
+ .input-field:focus{
+   border: 1px solid #ff7e38;
+ }
+
+ .program-workout1{
+    background-image: url(../img/10\ mass\ body\ building.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%; 
+    position: relative; 
+  }
+  .program-workout2{
+    background-image: url(../img/muscle\ and\ strength.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%; 
+    position: relative; 
+  }
+  .program-workout3{
+    background-image: url(../img/fit-man-dumbbell-workout-400.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%; 
+    position: relative; 
+  }
+  .program-workout4{
+    background-image: url(../img/power\ hypertrophy\ img.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%; 
+    position: relative; 
+  }
+  .program-workout5{
+    background-image: url(../img/muscle\ and\ strength\ 2.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%; 
+    position: relative; 
+  }
+  .program-workout6{
+    background-image: url(../img/Fat\ destroyer.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%; 
+    position: relative; 
+  }
